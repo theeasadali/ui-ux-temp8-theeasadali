@@ -11,7 +11,7 @@ const Hero = () => {
                 </div>
                 <button className='flex gap-[20px] items-center rounded-lg w-fit bg-primary text-white font-semibold text-xl px-6 py-[14px] transition-colors duration-200 hover:bg-primaryText'>
                     <span>{`Shop Now`}</span>
-                    <Image src={`/img/line.svg`} height={16} width={16} alt='cart-icon'/>
+                    <Image src={`/img/Line.svg`} height={16} width={16} alt='cart-icon'/>
                 </button>
             </div>
             <Image src={`/img/Product\ Image.png`} height={584} width={434} alt='chair-hero'/>
