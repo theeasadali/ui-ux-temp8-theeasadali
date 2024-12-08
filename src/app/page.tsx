@@ -4,6 +4,8 @@ import Product from "./components/product";
 import Product2 from "./components/product-2";
 import ProductBig from "./components/product-big";
 import CartItem from "./components/cart-item";
+import Hero from "./components/hero";
+import LogosSection from "./components/logos-section";
 
 export default function Home() {
   interface Product {
@@ -138,6 +140,8 @@ export default function Home() {
   
   return (
     <>
+      <Hero/>
+      <LogosSection/>
       {/* <Product title="Classic Wooden Chair" label="New" image="/img/Image.png" price={20} />
       <Category />
       <Product2/>

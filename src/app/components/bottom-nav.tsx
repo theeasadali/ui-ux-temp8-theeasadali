@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 const BottomNav = () => {
   return (
-    <div className='bg-white'>
+    <div className='bg-white shadow-[0_1px_0_0_#E1E3E5]'>
         <div className='py-[14px] flex justify-between gap-2 container h-[74px] items-center'>
             <nav className='flex gap-8 text-[#636270] font-medium text-[14px]'>
                 <Link className='text-primaryText' href={`#`}>Home</Link>
