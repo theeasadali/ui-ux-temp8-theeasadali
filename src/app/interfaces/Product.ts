@@ -3,7 +3,7 @@ export interface Product {
     name: string;
     category: string;
     featured: boolean;
-    label?: "New" | "Sale"; // Optional, allows flexibility
+    label?: "New" | "Sales"; // Optional, allows flexibility
     price: number;
     quantity: number;
     size: string; // Example: "Small", "Medium", "Large"
