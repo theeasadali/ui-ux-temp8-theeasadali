@@ -21,7 +21,7 @@ const CategorySection = () => {
 
     const CategoryProducts = products.filter(product => product.category === "")
     return (
-        <div className='container flex flex-col gap-10 py-6'>
+        <div className='container flex flex-col gap-10 py-6 pt-[136px]'>
             <SectionTitle title={`Top Categories`}/>
             <div className='flex gap-6 '>
                 {CategoryProducts && wingChair.map(({id, name, image}) => (

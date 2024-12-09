@@ -11,7 +11,7 @@ import Image from 'next/image'
 
 const StylesSection = () => {
     return (
-        <div className='container flex flex-col gap-10 py-6 relative'>
+        <div className='container flex flex-col gap-10 py-6 relative pt-[229px]'>
             <span className='-rotate-90 relative -left-[580px] -bottom-24 uppercase'><SectionTitle title={`Explore new and popular styles`}/></span>
             <div className='flex gap-6 '>
                 <Image src={products[0].image} alt={products[0].name} height={468} width={468}/>

@@ -20,12 +20,6 @@ export default function Home() {
       <CategorySection/>
       <StylesSection/>
       <AllProductsSection/>
-      {/* <Product title="Classic Wooden Chair" label="New" image="/img/Image.png" price={20} />
-      <Category />
-      <Product2/>
-      <ButtonText/>
-      <ProductBig/>
-      <CartItem/> */}
     </>
   );
 }
