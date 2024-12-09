@@ -18,14 +18,14 @@ const CategorySection = () => {
     }
     
     const wingChair = categoryArr(products, "Wing Chair");
-    
+
     const CategoryProducts = products.filter(product => product.category === "")
     return (
         <div className='container flex flex-col gap-10 py-6'>
             <SectionTitle title={`Top Categories`}/>
             <div className='flex gap-6 '>
-                {CategoryProducts && wingChair.map(({id, name, image, noOfItems}) => (
-                    <Category key={id} name={name} image={image} noOfItems={noOfItems}/>
+                {CategoryProducts && wingChair.map(({id, name, image}) => (
+                    <Category key={id} name={name} image={image} noOfItems={1}/>
                 )).slice(0, 3)}
             </div>
         </div>
