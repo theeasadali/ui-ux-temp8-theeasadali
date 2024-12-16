@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Roboto } from "next/font/google";
 import "./globals.css";
 import TopNav from "./components/top-nav";
 import MiddleNav from "./components/middle-nav";

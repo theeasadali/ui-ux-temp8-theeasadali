@@ -1,3 +1,4 @@
+import { Instagram, LucideFacebook, Twitter, Linkedin, Youtube } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
@@ -15,23 +16,24 @@ const Footer = () => {
                   Cras egestas purus </p>
                   <div className='flex gap-1'>
                       <Link href={`#`}>
-                        <Image className="p-[10px] border border-transparent transition-colors duration-200 hover:border-primaryText rounded-full" src={`/img/facebook.svg`} alt={`Facebook`} width={38} height={38}/>
+                        <LucideFacebook className='p-[10px] text-gray-600 border border-transparent transition-colors duration-200 hover:border-primaryText hover:text-primaryText rounded-full h-[38px] w-[38px]'/>
                       </Link>
 
                       <Link href={`#`}>
-                        <Image className="p-[10px] border border-transparent transition-colors duration-200 hover:border-primaryText rounded-full" src={`/img/twitter.svg`} alt={`Twitter`} width={38} height={38}/>
+                        <Twitter className='p-[10px] text-gray-600 border border-transparent transition-colors duration-200 hover:border-primaryText hover:text-primaryText rounded-full h-[38px] w-[38px]'/>
                       </Link>
 
                       <Link href={`#`}>
-                        <Image className="p-[10px] border border-transparent transition-colors duration-200 hover:border-primaryText rounded-full" src={`/img/instagram.svg`} alt={`instagram`} width={38} height={38}/>
+                        <Instagram className='p-[10px] text-gray-600 border border-transparent transition-colors duration-200 hover:border-primaryText hover:text-primaryText rounded-full h-[38px] w-[38px]'/>
+
                       </Link>
 
                       <Link href={`#`}>
-                        <Image className="p-[10px] border border-transparent transition-colors duration-200 hover:border-primaryText rounded-full" src={`/img/pinterest.svg`} alt={`Pinterest`} width={38} height={38}/>
+                        <Youtube className='p-[10px] text-gray-600 border border-transparent transition-colors duration-200 hover:border-primaryText hover:text-primaryText rounded-full h-[38px] w-[38px]'/>
                       </Link>
 
                       <Link href={`#`}>
-                        <Image className="p-[10px] border border-transparent transition-colors duration-200 hover:border-primaryText rounded-full" src={`/img/youtube.svg`} alt={`Youtube`} width={38} height={38}/>
+                        <Linkedin  className='p-[10px] text-gray-600 border border-transparent transition-colors duration-200 hover:border-primaryText hover:text-primaryText rounded-full h-[38px] w-[38px]'/>
                       </Link>
                   </div>
               </div>
@@ -77,19 +79,19 @@ const Footer = () => {
 
           <div className='flex gap-1 items-center'>
             <Link href={`#`}>
-              <Image className="grayscale" src={`/img/mastercard.svg`} alt={`Facebook`} width={36} height={27}/>
+              <Image className="grayscale" src={`/img/mastercard.svg`} alt={`Mastercard`} width={36} height={27}/>
             </Link>
 
             <Link href={`#`}>
-              <Image className="grayscale" src={`/img/paypal.svg`} alt={`Twitter`} width={56} height={27}/>
+              <Image className="grayscale" src={`/img/paypal.svg`} alt={`Paypal`} width={56} height={27}/>
             </Link>
 
             <Link href={`#`}>
-              <Image className="grayscale" src={`/img/americanexpress.svg`} alt={`instagram`} width={50} height={27}/>
+              <Image className="grayscale" src={`/img/americanexpress.svg`} alt={`American Express`} width={50} height={27}/>
             </Link>
 
             <Link href={`#`}>
-              <Image className="grayscale" src={`/img/visa.svg`} alt={`Pinterest`} width={55} height={27}/>
+              <Image className="grayscale" src={`/img/visa.svg`} alt={`Visa`} width={55} height={27}/>
             </Link>
           </div>
         </div>

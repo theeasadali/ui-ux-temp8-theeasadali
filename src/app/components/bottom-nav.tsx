@@ -5,8 +5,8 @@ const BottomNav = () => {
     <div className='bg-white shadow-[0_1px_0_0_#E1E3E5]'>
         <div className='py-[14px] flex justify-between gap-2 container h-[74px] items-center'>
             <nav className='flex gap-8 text-[#636270] font-medium text-[14px]'>
-                <Link className='text-primaryText' href={`#`}>Home</Link>
-                <Link href={`#`}>Shop</Link>
+                <Link className='text-primaryText' href={`/`}>Home</Link>
+                <Link href={`/shop`}>Shop</Link>
                 <Link href={`#`}>Product</Link>
                 <Link href={`#`}>Pages</Link>
                 <Link href={`#`}>About</Link>

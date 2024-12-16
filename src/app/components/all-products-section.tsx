@@ -1,5 +1,4 @@
 import React from 'react'
-import { Product as ProductInterface } from '../interfaces/Product'
 import { products } from '../data/products'
 import Product from './product'
 import SectionTitle from './section-title'
